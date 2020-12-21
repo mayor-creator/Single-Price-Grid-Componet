@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(204, 43%, 93%);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    min-height: 100vh;
+}
+
+
+/* top section styling */
+
+.top-container {
+    background-color: hsl(197, 33%, 96%);
+    line-height: 32px;
+}
+
+.join_our_header {
+    color: hsl(179, 62%, 43%);
+    font-weight: 400;
+}
+
+.money_back_paragraph {
+    color: hsl(71, 73%, 54%);
+}
+
+.skills_description {
+    color: hsl(218, 22%, 67%);
+}
+
+
+/* left section styling */
+
+.left-container {
+    background-color: hsl(179, 62%, 43%);
+    line-height: 32px;
+}
+
+.monthly_header {
+    color: hsl(197, 33%, 96%);
+    font-weight: 400;
+}
+
+.dollar_value {
+    color: hsl(197, 33%, 96%);
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.per_month_value {
+    color: hsl(179, 57%, 52%);
+}
+
+.access_description {
+    color: hsl(197, 33%, 96%);
+}
+
+.sign_up_button {
+    color: hsl(197, 33%, 96%);
+    background-color: hsl(71, 73%, 54%);
+    text-align: center;
+    border-radius: 10px;
+    width: 260px;
+    height: 47px;
+}
+
+
+/* right selection styling */
+
+.right-container {
+    background-color: hsl(179, 57%, 52%);
+    line-height: 25px;
+}
+
+.why_header {
+    color: hsl(197, 33%, 96%);
+    font-weight: 400;
+}
+
+.list_of_items {
+    color: hsl(197, 81%, 90%);
+    list-style: none;
+}
+
+
+/* footer styling */
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+/* mobile display view*/
+
+@media only screen and (max-width: 375px) {
+    .top-container {
+        width: 312px;
+        height: 270px;
+    }
+    .join_our_header {
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
+    .money_back_paragraph {
+        padding-left: 10px;
+    }
+    .skills_description {
+        padding-left: 10px;
+    }
+    .left-container {
+        width: 312px;
+        height: 228px;
+    }
+    .monthly_header {
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .dollar_value {
+        padding: 10px;
+    }
+    .access_description {
+        padding-left: 10px;
+        margin-bottom: 20pxs;
+    }
+    .sign_up_button {
+        margin-top: 40px;
+        margin-left: 10px;
+    }
+    .right-container {
+        width: 312px;
+        height: 229px;
+    }
+    .why_header {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+    }
+    .list_of_items {
+        margin-left: 10px;
+    }
+}
+
+
+/* desktop display view */
+
+@media only screen and (min-width: 376px) and (max-width: 1440px) {
+    .top-container {
+        width: 638px;
+        height: 220px;
+    }
+    .join_our_header {
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+    .money_back_paragraph {
+        padding-left: 20px;
+    }
+    .skills_description {
+        padding-left: 20px;
+    }
+    .left-container {
+        position: absolute;
+        width: 319px;
+        height: 258px;
+    }
+    .monthly_header {
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .dollar_value {
+        padding: 20px;
+    }
+    .access_description {
+        padding-left: 20px;
+        margin-bottom: 20px;
+    }
+    .sign_up_button {
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+    .right-container {
+        position: absolute;
+        right: 0px;
+        margin-right: 401px;
+        width: 319px;
+        height: 258px;
+    }
+    .why_header {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+    }
+    .list_of_items {
+        margin-left: 20px;
+    }
+}
